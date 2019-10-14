@@ -6,7 +6,7 @@ config['dev']={'database':'retail_db',
                     'user_name': 'retail_user',
                     'password':'itversity',
                     'Port': 3306}
-with open('sample.ini', 'w') as configfile:
+with open('sample1.ini', 'w') as configfile:
     config.write(configfile)
 
 
